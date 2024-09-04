@@ -80,12 +80,26 @@ li{
     flex-direction: row;
     align-items: center;
     padding: 10px;
+    color: #191d13;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.introduction{
+    display: flex;
+    font-size: 25px;
+    align-items: center;
 }
 
 .avatar{
     height: 50px;
     border-radius: 50%;
     border: solid 2px #e9f5db;
+}
+
+.large.avatar{
+    height: 75px;
+    padding: 10px;
 }
 
 .search-bar{
@@ -97,6 +111,15 @@ input[type="text"]{
     border: 0;
     padding: 10px;
     width: 50%;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.user-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
 }
 
 button{
@@ -104,5 +127,11 @@ button{
     border: 0;
     background-color: #718355;
     color: #e9f5db;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.buttons{
     padding: 10px;
 }
