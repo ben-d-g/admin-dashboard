@@ -25,9 +25,17 @@ body, html{
 }
 
 .main-body{
+    display: flex;
+    flex-direction: column;
     flex: 1;
-    background-color: #e9f5db;
-    padding: 20px;
+    background-color: #cfe1b9;
     flex-basis: 75%;
     min-width: 200px;
+}
+
+.header{
+    width: 100%;
+    background-color: #e9f5db;
+
+    flex-basis: 15%;
 }
