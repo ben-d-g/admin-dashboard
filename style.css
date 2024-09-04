@@ -1,0 +1,33 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+}
+
+.content{
+    display: flex;
+    flex: 1; /* Fill the remaining space */
+    min-width: 500px;
+}
+
+.sidebar{
+    background-color: #718355;
+    color: white;
+    flex-basis: 25%;
+    min-width: 150px;
+    max-width: 350px;
+}
+
+.main-body{
+    flex: 1;
+    background-color: #e9f5db;
+    padding: 20px;
+    flex-basis: 75%;
+    min-width: 200px;
+}
